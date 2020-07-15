@@ -31,8 +31,6 @@ def iss_location():
     lon = float(location["longitude"])
     print(f'Current ISS coordinates: lat: {lat}, lon: {lon}')
     return lat, lon
-    # for k, v in location.items():
-    #     print(f"{k}: {v}")
 
 
 def iss_map(lat, lon):
